@@ -1,5 +1,6 @@
 const Product = require('../models/product')
 const APIFeatures = require('../utils/apiFeatures')
+const ErrorHandler = require('../utils/errorHandler')
 
 
 //create new product
