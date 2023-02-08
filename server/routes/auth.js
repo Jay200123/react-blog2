@@ -8,6 +8,8 @@ const { registerUser, } = require('../controllers/authController');
 
 router.route('/register').post(registerUser);
 
+// router.get('/products', isAuthenticatedUser,  getProducts)
+
 // router.route('/login').post(loginUser);
 
 

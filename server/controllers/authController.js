@@ -1,6 +1,7 @@
 const User = require('../models/user');
 const ErrorHandler = require('../utils/errorHandler');
-
+const sendToken = require('../utils/jwtToken')
+const crypto = require('crypto')
 
 
 exports.registerUser = async (req, res, next) => {
@@ -31,17 +32,17 @@ exports.registerUser = async (req, res, next) => {
 
 	 
 
-	  res.status(201).json({
+	 res.status(201).json({
 
-	  	success:true,
+	 	success:true,
 
-	  	user,
+	 	user,
 
-	 // 	token
+	 	token
 
-	  })
+	 })
 
-	//  sendToken(user, 200, res)
+	 sendToken(user, 200, res)
 
 };
 

@@ -4,6 +4,7 @@ app = express();
 
 const products = require('./routes/product');
 const auth = require('./routes/auth');
+const cookieParser = require('cookie-parser')
 
 app.use(express.json());
 
