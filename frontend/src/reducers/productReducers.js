@@ -8,7 +8,7 @@ switch(action.type) {
    case ALL_PRODUCTS_REQUEST:
        return {
            loading: true,
-           propducts:[]
+           products:[]
        }
    case ALL_PRODUCTS_SUCCESS:
        return {
