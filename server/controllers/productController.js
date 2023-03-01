@@ -170,8 +170,3 @@ exports.getProducts = async (req, res, next) => {
 	})
 
 }
-
-// const apiFeatures = new APIFeatures(Product.find(),req.query).search().filter()
-
-
-

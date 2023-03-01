@@ -1,9 +1,9 @@
-import React, { Fragment,  useEffect } from 'react'
+import  {React, Fragment,  useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getProducts } from '../actions/productActions'
 // import { Alert } from 'react-alert'
 import MetaData from './layout/MetaData'
-// import Product from './product/Product'
+import Product from './product/Product'
 // import Loader from './layout/Loader'
 // import { useAlert } from 'react-alert'
 
